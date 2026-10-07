@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clyne Ridez</title>
+</head>
+<body id="top">
+    <header>
+        <img src="logo.png" alt="logo" width="350" height="250">
+        <nav>
+        <h1> Clyne Ridez </h1> 
+        <p><em> Enjoy a comfy ride with Clyne Ridez </em></p>
+        <a href="#Book"> Book a Ride </a>|
+        <a href="#Fleet"> Our Vehicles </a>|
+        <a href="#Media"> Media </a>|
+        <a href="#Schedule"> Schedule </a>|
+        <a href="#Contact"> Contact </a>|
+        </nav>
+    </header>
+    <hr>
+
+    <main> 
+        <section id="Book">
+            <h2> Book a ride</h2>
+            <form action="#" method="post">
+                <fieldset> 
+                    <p>
+                    <legend>Trip Details</legend>
+                    </p>
+
+
+                    <p>
+                        <label for= "full name"> Full name: </label>
+                        <input type="text" id="full Name" name="full name" placeholder="Enter your full name" required>
+                    </p>
+                    <p>
+                        <label for="phone number"> Phone number: </label>
+                        <input type="text" id="phone" name="phone" placeholder="09123456789" required>
+                    </p>
+                    <p>
+                        <label for="email"> Email: </label>
+                        <input type="email" id="email" name="email" placeholder="clyne423@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="pick-up"> Pick-up Location: </label>
+                        <input type="text" id="Pick-up" name="pick-up" list="places" placeholder="Select Location">
+                    </p>
+                    <p>
+                        <label for="drop off"> Drop off </label>
+                        <input type="text" id="drop off" name="drop off" list="places" placeholder="Select Location">
+                    </p>
+                    <datalist id="places">
+                        <option value="SM"></option>
+                        <option value="Center Mall"></option>
+                        <option value="Public Market"></option>
+                        <option value="Botanical"></option>
+                        <option value="Session"></option>
+                    </datalist>
+                    <p>
+                        <label for="date">Date: </label>
+                        <input type="date" id="date" name="date" required>
+                    </p>
+                    <p>
+                        <label for="time">Time: </label>
+                        <input type="time" id="date" name="time" required>
+                    </p>
+                    <p>
+                        <label for="passengers"> Passengers: </label>
+                        <input type="number" id="passengers" name="passengers" min="1" max="10" value="1">
+                    </p>
+                    <p>
+                        <label for="vehicle">Vehicle type: </label>
+                        <select id="vehicle" name="vehicle">
+                        
+                        <option value="taxi"></option>
+                        <option value="Van"></option>
+                        <option value="Motorcycle"></option>
+                        <option value="Shuttle"></option>
+                        <option value="Jeep"></option>
+                    </select>
+                    </p>
+
+                    <p>
+                        Payment method:<br> 
+                        <label><input type="money" name="payment" value="cash" checked> Cash</label>
+                        <label><input type="money" name="payment" value="card" checked> Card</label>
+                        <label><input type="money" name="payment" value="E-Wallet" checked> E-Wallet</label>
+                    </p>
+                    <p>
+                        Extras:<br>
+                        <label><input type="checkbox" name="extras" value="luggage"> Extra luggage</type>
+                        <label><input type="checkbox" name="extras" value="childseat"> Child seat </label>
+                        <label><input type="checkbox" name="extras" value="wheelchair"> Wheelchair</label>
+                    </p>
+
+                    <p>
+                        <label for="notes">Notes for the Driver:</label></br> 
+                        <textarea id="motes" name="notes" rows="4" cols="40" placeholder="Any special instruction"></textarea>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="Terms" required>
+                            I agree to the <a href="#terms-info">Terms &amp; Conditions</a>
+                        </label>
+                    </p>
+                    <p>
+                        <button type="submit">Book Now</button>
+                        <button type="reset"> Clear</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+
+        <section id="fleet">
+            <h2>Our Vehicles</h2>
+            <figure> 
+                <img src="Forty.jpg" alt="taxi" width="400" height="250">
+                <figcaption><strong>Taxi</strong>-Comfortable SUV for up to 5 passengers thats good for drive around the city and for touring.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="van.jpg" alt="van" width="400" height="250">
+                <figcaption><strong>Van</strong>-Comfortable Van for up to 15 passengers good for touring and long drives including airport runs.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="bike.jpg" alt="bike" width="400" height="250">
+                <figcaption><strong>Motorbike</strong>-Easy to ride around scooter for 2 people use. </figcaption>
+            </figure>
+
+            <figure>
+                <img src="shuttle.jpg" alt="shuttle" width="400" height="250">
+                <figcaption><strong>Shuttle</strong>-Large capacity vehicle good for big families and long distance travels </figcaption>
+            </figure>
+
+            <figure> 
+                <img src="jeep.jpg" alt="jeep" width="400" height="250">
+                <figcaption><strong>Jeep</strong>-Good for beach outings and for big families especially on long and rugged roads</figcaption>
+        </section>
+        <hr>
+        
+            <section id="Media">
+                <h2>Media</h2>
+                <h3>How Clyne Ridez works (video)</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/M2ZhZ7397Yw?si=dMRIX9lCM5UtRdr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <h3> Watch on Youtube </h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/B0DEs0OYRHc?si=iydYVUuliXxE57eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>Driver Announcement</h3>
+                <audio controls>
+                    <source src="mp4.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            <hr>
+
+            <section id="schedule">
+                <h2>Shuttle Schedule</h2>
+
+                 <table border="1" cellpadding="6" cellspacing="0">
+                    <caption>Daily departures from Central Terminal</caption>
+                    <thead>
+                        <tr>
+                        <th>Route</th>
+                        <th>Departure</th>
+                        <th>Arrival</th>
+                        <th>Fare</th>
+                </tr>
+                    </thead>
+            <tbody>
+                <tr>
+                    <td>Terminal to City Hall</td>
+                         <td>8:00 AM</td>
+                        <td>8:20 AM</td>
+                         <td>$2.00</td>
+                </tr>
+                 <tr>
+                     <td>Terminal to University</td>
+                     <td>9:00 AM</td>
+                     <td>9:30 AM</td>
+                     <td>$2.50</td>
+                 </tr>
+                 <tr>
+                      <td>Terminal to Airport</td>
+                      <td>10:00 AM</td>
+                     <td>10:45 AM</td>
+                     <td>$5.00</td>
+                    
+                </tr>
+                 <tr>
+                     <td>Terminal to Public Market</td>
+                  <td>11:00 AM</td>
+                    <td>11:15 AM</td>
+                    <td>$1.50</td>
+                  </tr>
+                </tbody>
+             </table>
+
+             <h3>Check Your Route</h3>
+
+             <form method="get">
+             <label for="route">Select a route:</label>
+              <select id="route" name="route">
+                 <option value="city-hall">Terminal to City Hall</option>
+              <option value="university">Terminal to University</option>
+             <option value="airport">Terminal to Airport</option>
+               <option value="public-market">Terminal to Public Market</option>
+    </select>
+             <button type="submit">Search</button>
+             </form>
+
+             <hr>
+</section>
+
+     <section id="contact">
+        <h2>Contact & Feedback</h2>
+     <form enctype="multipart/form-data" method="post">
+    <fieldset>
+      <legend>Send Feedback</legend>
+
+      <label for="name">Your name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <label for="rating">Rate your ride (1-5):</label>
+      <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+      <br><br>
+
+      <label for="topic">Topic:</label>
+      <select id="topic" name="topic">
+        <option value="compliment">Compliment</option>
+        <option value="complaint">Complaint</option>
+        <option value="lost-item">Lost item</option>
+        <option value="suggestion">Suggestion</option>
+      </select>
+      <br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+      <br><br>
+
+      <label for="photo">Attach a photo (optional):</label>
+      <input type="file" id="photo" name="photo" accept="image/*">
+      <br><br>
+
+      <button type="submit">Send Feedback</button>
+    </fieldset>
+  </form>
+
+  <h3>Reach Us</h3>
+
+  <address>
+    Car Rental Services<br>
+    123 Balay ni Gorio<br>
+    Phone: <a href="tel:+1234567890">+1 234-567-890</a><br>
+    Email: <a href="mailto:clyne423@gmail.com">clyne423@gmail.com</a>
+  </address>
+
+  <hr>
+</section>
+    <section id="links">
+  <h2>Useful Links</h2>
+  <ul>
+    <li><a href="https://maps.google.com" target="_blank">Google Maps</a></li>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="#top">Back to top</a></li>
+  </ul>
+</section>
+
+<section id="terms-info">
+  <h2>Terms &amp; Conditions</h2>
+  <details>
+    <summary>Read the terms</summary>
+    <ol>
+      <li>Passengers must follow all safety rules and instructions from the driver.</li>
+      <li>Payment must be paid before renting a Vehicle.</li>
+      <li>Passengers are responsible for their personal belongings during the journey.</li>
+    </ol>
+  </details>
+</section>
+
+</main>
+
+<footer>
+  <hr>
+  <p>&copy; 2026 Clyne Ridez Rentals. All rights reserved.</p>
+</footer>
+                </fieldset>
+
+
+            </form>
+        </section>
+
+
+</body>
+</html>
